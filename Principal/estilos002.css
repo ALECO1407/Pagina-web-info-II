@@ -1,0 +1,127 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #91add8;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1 {
+    color: #005b99;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+hr {
+    height: 8px;
+    width: 80%;
+    background-color: #007acc;
+    border: none;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+.contenedor img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.destacado {
+    font-weight: bold;
+    color: #007acc;
+}
+
+
+.media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+video, audio {
+    margin: 20px 0;
+    width: 60%;
+    max-width: 450px;
+    border: 3px solid #007acc;
+    border-radius: 10px;
+}
+
+
+.imagen-centro {
+    width: 35%;
+    margin: 30px auto;
+    display: block;
+}
+
+
+.botonaso {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.botonaso img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid #007acc;
+    transition: transform 0.3s ease;
+}
+
+.botonaso img:hover {
+    transform: scale(1.1);
+}
+.botones-esquina {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.boton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.boton img {
+    width: 60px;   /* Tamaño del botón */
+    height: 60px;
+}
+
+.boton:hover img {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}

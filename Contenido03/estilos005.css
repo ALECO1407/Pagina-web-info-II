@@ -1,0 +1,130 @@
+
+*{
+    font-size: large;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightcyan;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #0056b3;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+
+img {
+    display: block;
+    width: 25%;
+    height: auto;
+    margin: 20px auto;
+    border: 4px solid #0056b3;
+    border-radius: 10px;
+}
+
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+
+ul {
+    list-style-type: square;
+    margin: 20px 40px;
+    padding: 0;
+    color: #0056b3;
+    font-size: 1.2em;
+}
+
+li {
+    margin: 10px 0;
+}
+
+
+
+header, footer {
+    background: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.botoncito {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.botoncito img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid #007acc;
+    transition: transform 0.3s ease;
+}
+
+.botoncito img:hover {
+    transform: scale(1.1);
+}
+
+.botones-esquina {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.boton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.boton img {
+    width: 60px;   /* Tamaño del botón */
+    height: 60px;
+}
+
+.boton:hover img {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
